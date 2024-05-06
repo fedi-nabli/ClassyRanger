@@ -1,14 +1,14 @@
 #include <iostream>
 
-#include "CountVectorizer.h"
+#include "BaseClassifier.h"
 
 using namespace ClassyRanger;
 
 int main()
 {
-  CountVectorizer cv;
-  cv.fit("../data/features.txt", "../data/labels.txt");
-  cv.shape();
-  cv.head();
+  BaseClassifier bs;
+  bs.fit("../data/features.txt", "../data/labels.txt");
+  bs.shape();
+  bs.head();
   return 0;
 }
