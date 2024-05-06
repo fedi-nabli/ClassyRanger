@@ -83,6 +83,7 @@ namespace ClassyRanger
 
       inline std::string get_word(int idx) { return m_WordArray[idx]; }
       inline std::shared_ptr<Sentence> get_sentence(int idx) { return m_Sentences[idx]; }
+      inline std::vector<std::shared_ptr<Sentence>> get_sentences() { return m_Sentences; }
       inline unsigned int get_word_array_size() { return m_WordArray.size(); }
       inline unsigned int get_sentence_count() { return m_Sentences.size(); }
 

@@ -14,6 +14,8 @@ project(${ProjectId})
 file (GLOB USER_FILES
 "src/*.h"
 "src/*.cpp"
+"src/classifiers/*.h"
+"src/classifiers/*.cpp"
 )
 
 add_executable(main "app/main.cpp" ${USER_FILES})
