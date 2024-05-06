@@ -17,3 +17,5 @@ file (GLOB USER_FILES
 )
 
 add_executable(main "app/main.cpp" ${USER_FILES})
+
+target_include_directories(main PUBLIC "src")

@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "../src/CountVectorizer.h"
+#include "CountVectorizer.h"
 
 using namespace ClassyRanger;
 
