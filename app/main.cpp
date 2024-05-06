@@ -1,5 +1,6 @@
 #include <iostream>
 
+#include "classifiers/NaiveBayesClassifier.h"
 #include "classifiers/SimpleClassifier.h"
 
 using namespace ClassyRanger;
@@ -11,6 +12,6 @@ int main()
   sc.shape();
   sc.head();
 
-  sc.analyze("Amazing. Loved this place. I want to come again");
+  sc.analyze("I love this pet");
   return 0;
 }
